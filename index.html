@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/nomarlize.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/font/fontawesome-free-5.14.0-web/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="#">
 
@@ -16,15 +17,83 @@
         <header class="header">
             <nav class="header__navbar">
                 <ul class="header__navbar-list">
-                    <li class="header__navbar-item header__navbar-item--separate">Vào cửa hàng trên ứng dụng Shop</li>
-                    <li class="header__navbar-item">Kết nối</li>
+                    <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
+                        Vào cửa hàng trên ứng dụng Shop
+                        <div class="header__qr">
+                            <img src="assets/css/img/qr_code.png" alt="QR code" class="header__qr-img">
+                            <div class="header__qr-apps">
+                                <a href="" class="header__qr-link">
+                                    <img src="assets/css/img/google_play.png" alt="google_play " class="header__qr-download-img">
+                                </a>
+                                <a href="" class="header__qr-link">
+                                    <img src="assets/css/img/app_store.png" alt="app_store " class="header__qr-download-img">
+                                </a>
+                                
+                                
+                            </div>
+
+                        </div>
+
+                    </li>
+                    <li class="header__navbar-item">
+                         <span class="header__navbar-title--no-poiter">Kết nối</span>   
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fab fa-facebook"></i>
+                        </a>
+                        <a href="" class="header__navbar-icon-link">
+                            <i class="header__navbar-icon fab fa-instagram"></i>
+                        </a>
+                    </li>
                 </ul>
                 <ul class="header__navbar-list">
                     <li class="header__navbar-item">
-                        <a href="" class="header__navbar-item-link">Thông báo</a>
+                        <a href="" class="header__navbar-item-link">
+                            <i class="header__navbar-icon fas fa-bell"></i>                            
+                            Thông báo
+                        </a>
+                        <div class="header__notify">
+                            <header class="header__notify-header">
+                                <h3>Thông báo mới nhận</h3>
+                            </header>
+                            <ul class="header__notify-list">
+                                <li class="header__notify-items header__notify-link-viewed">
+                                    <a href="" class="header__notify-link">
+                                        <img src="https://cf.shopee.vn/file/945c0e87436919d6e11c234506984de6_tn" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name"><Tin Tin!> Mã Freeship tới ngay đây</span>                                    
+                                            <span class="header__notify-description">Shopee tặng bạn mã Miễn Phí Vận Chuyển đặc biệt cho đơn hàng đầu tiên. Mua hàng thả ga không lo phí ship. Hiệu lực 30 ngày kể từ ngày đăng ký tài khoản mới. Nhanh tay bạn nhé! Số lượng có hạn.</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__notify-items">
+                                    <a href="" class="header__notify-link">
+                                        <img src="https://cf.shopee.vn/file/945c0e87436919d6e11c234506984de6_tn" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Sản phẩm ohui chính hãng</span>                                    
+                                            <span class="header__notify-description">Shopee tặng bạn mã Miễn Phí Vận Chuyển đặc biệt cho đơn hàng đầu tiên. Mua hàng thả ga không lo phí ship. Hiệu lực 30 ngày kể từ ngày đăng ký tài khoản mới. Nhanh tay bạn nhé! Số lượng có hạn.</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="header__notify-items">
+                                    <a href="" class="header__notify-link">
+                                        <img src="https://cf.shopee.vn/file/945c0e87436919d6e11c234506984de6_tn" alt="" class="header__notify-img">
+                                        <div class="header__notify-info">
+                                            <span class="header__notify-name">Sản phẩm ohui chính hãng</span>                                    
+                                            <span class="header__notify-description">Mô tả sản phẩm Ohui chính hãng</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <footer class="header__notify-footer">
+                                <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                            </footer>    
+                        </div>
                     </li>
                     <li class="header__navbar-item">
-                        <a href="" class="header__navbar-item-link">Trợ giúp</a>
+                        <a href="" class="header__navbar-item-link">
+                            <i class="header__navbar-icon fas fa-question-circle"></i>
+                            Trợ giúp
+                        </a>
                     </li>
                     <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
                     <li class="header__navbar-item header__navbar-item--strong">Đăng nhập</li>
